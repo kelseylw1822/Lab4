@@ -7,7 +7,7 @@ private:
     double side = 1.0;
 public:
     Square();
-    Square(double s) : side(s) {} ;
+    Square(double s);
     bool setSide(double s);
     double getSide();
     double calcArea();

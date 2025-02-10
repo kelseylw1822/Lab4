@@ -1,5 +1,9 @@
 #include "Circle.h"
 
+Circle::Circle() {} ;
+
+Circle::Circle(double r) : radius(r) {} ;
+
 bool Circle::setRadius(double r)
 {
     if (r >= 0)

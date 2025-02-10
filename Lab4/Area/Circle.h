@@ -8,7 +8,7 @@ private:
     double radius = 1.0;
 public:
     Circle();
-    Circle(double r) : radius(r) {} ;
+    Circle(double r);
     bool setRadius(double r);
     double getRadius();
     double calcArea();

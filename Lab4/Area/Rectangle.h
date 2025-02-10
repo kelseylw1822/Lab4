@@ -8,7 +8,7 @@ private:
     double width = 1.0 ;
 public:
     Rectangle();
-    Rectangle(double l, double w) : length(l), width(w) {} ;
+    Rectangle(double l, double w) ;
     bool setLength(double l);
     bool setWidth(double w);
     double getLength();

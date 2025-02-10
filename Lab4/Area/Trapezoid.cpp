@@ -1,5 +1,9 @@
 #include "Trapezoid.h"
 
+Trapezoid::Trapezoid() {} ;
+
+Trapezoid::Trapezoid(double b1, double b2, double h) : base1(b1), base2(b2), height(h) {} ;
+
 bool Trapezoid::setBase1(double b1)
 {
     if (b1 >= 0)

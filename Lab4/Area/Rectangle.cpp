@@ -1,5 +1,9 @@
 #include "Rectangle.h"
 
+Rectangle::Rectangle() {}
+
+Rectangle::Rectangle(double l, double w) : length(l), width(w) {} ;
+
 bool Rectangle::setLength(double l)
 {
     if (l >= 0)

@@ -1,5 +1,9 @@
 #include "Square.h"
 
+Square::Square() {} ;
+
+Square::Square(double s) : side(s) {} ;
+
 bool Square::setSide(double s)
 {
 if (s >= 0)
