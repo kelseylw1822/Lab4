@@ -19,10 +19,10 @@ public:
     void setRate(double theRate);
     void setServices(double serv);
     void setMedication(double meds);
-    void setpatientType(char type);
+    void setPatientType(char type);
     int getDays();
     double getRate();
-    double getServies();
+    double getServices();
     double getMedication();
     char getPatientType();
 };

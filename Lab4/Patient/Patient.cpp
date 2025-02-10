@@ -62,7 +62,7 @@ void Patient::setMedication(double meds)
         medication = meds;
     }
 }
-void Patient::setpatientType(char type)
+void Patient::setPatientType(char type)
 {
     if (validateInput(type) == true)
     {
@@ -77,7 +77,7 @@ double Patient::getRate()
 {
     return rate;
 }
-double Patient::getServies()
+double Patient::getServices()
 {
     return services;
 }
