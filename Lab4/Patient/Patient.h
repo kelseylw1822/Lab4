@@ -14,6 +14,7 @@ private:
 public:
     Patient();
     Patient(int daysSpent, double roomRate, double serv, double meds, char type);
+    Patient(char type, double serv, double meds); 
     double calcTotalCharges();
     void setDays(int amountDays);
     void setRate(double theRate);

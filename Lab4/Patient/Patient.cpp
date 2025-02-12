@@ -11,6 +11,13 @@ Patient::Patient(int daysSpent, double roomRate, double serv, double meds, char 
     patientType = type;
 }
 
+Patient::Patient(char type, double serv, double meds)
+{
+    patientType = type;
+    services = serv;
+    medication = meds;
+}
+
 bool Patient::validateInput(double input)
 {
     if (input < 0)

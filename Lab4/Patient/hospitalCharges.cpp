@@ -1,3 +1,9 @@
+// Name: Kelsey Wessel and Matthew Garino
+// My Class: CPSC 1021
+// Date: 02/12/2025
+// Desc: Calculates the total cost of the hospital stay using a patient class.
+// Time: Less than 30 minutes.
+
 #include <iostream>
 #include <iomanip>
 #include "Patient.h"
@@ -6,6 +12,7 @@ using namespace std;
 
 int main()
 {
+    // create Patient object
     Patient patient;
     
     char type;
@@ -17,7 +24,7 @@ int main()
     cout << "Enter I for in-patient or O for out-patient: ";
     cin >> type;
     
-    patient.setpatientType(type);
+    patient.setPatientType(type);
     
     if (patient.getPatientType() == 'I') {  // Inpatient
         cout << "Number of days in the hospital: ";
